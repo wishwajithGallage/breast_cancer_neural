@@ -2,6 +2,7 @@
 
 
 import pickle
+from tensorflow.keras.models import load_model
 import streamlit as st
 from streamlit_option_menu import option_menu
 
