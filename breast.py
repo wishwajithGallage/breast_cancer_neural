@@ -9,7 +9,7 @@ from streamlit_option_menu import option_menu
 
 # loading the saved models
 
-breast_model = pickle.load(open('breast_model.sav', 'rb'))
+breast_model = load_model(open('breast_model.sav', 'rb'))
 
 
 
